@@ -1,0 +1,32 @@
+var _g, _g2, _g3, _g4, _g5, _g6, _g7, _g8, _g9, _g10, _g11, _g12, _g13, _g14, _g15, _g16;
+var _excluded = ["title", "titleId"];
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+import * as React from "react";
+function SvgGlobeSvgrepoCom(_ref, svgRef) {
+  var title = _ref.title,
+    titleId = _ref.titleId,
+    props = _objectWithoutProperties(_ref, _excluded);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    id: "Layer_1",
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    x: "0px",
+    y: "0px",
+    viewBox: "0 0 512 512",
+    style: {
+      enableBackground: "new 0 0 512 512"
+    },
+    xmlSpace: "preserve",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _g || (_g = /*#__PURE__*/React.createElement("g", null, /*#__PURE__*/React.createElement("g", null, /*#__PURE__*/React.createElement("path", {
+    d: "M482.159,136.181c-19.646-37.242-48.721-69.485-84.104-93.256C355.988,14.844,306.866,0,256,0 s-99.988,14.844-142.075,42.938c-35.362,23.758-64.437,56-84.067,93.211C10.324,172.759,0,214.203,0,256 c0,41.797,10.324,83.241,29.84,119.818c19.146,36.303,47.113,67.688,81.006,91.046v0.27h0.394 c1.045,0.717,2.076,1.452,3.132,2.154C156.285,497.23,205.259,512,256,512s99.715-14.77,141.619-42.706 c1.059-0.704,2.094-1.441,3.142-2.16h0.394v-0.27c33.896-23.363,61.861-54.746,80.988-91.014C501.676,339.241,512,297.796,512,256 C512,214.204,501.676,172.759,482.159,136.181z M110.845,447.356c-24.211-18.397-44.777-41.32-60.425-67.315h60.425V447.356z  M110.845,364.206H41.673c-15.943-31.32-24.586-64.994-25.706-100.289h94.878V364.206z M110.845,248.082H15.967 c1.12-35.284,9.759-68.951,25.707-100.289h69.172V248.082z M110.845,131.959H50.422c15.599-25.891,36.175-48.83,60.423-67.336 V131.959z M248.082,496.03c-43.356-1.403-85.088-14.318-121.402-37.615v-78.374h121.402V496.03z M248.082,364.206H126.68V263.918 h121.402V364.206z M248.082,248.082H126.68V147.794h121.402V248.082z M248.082,131.959H126.68V53.521 c36.357-23.255,78.082-36.149,121.402-37.551V131.959z M385.32,458.416c-36.308,23.293-78.042,36.211-121.402,37.614V380.041 H385.32V458.416z M385.32,364.206H263.918V263.918H385.32V364.206z M385.32,248.082H263.918V147.794H385.32V248.082z  M385.32,131.959H263.918V15.97c43.327,1.402,85.056,14.299,121.402,37.55V131.959z M401.155,64.623 c24.249,18.508,44.817,41.439,60.422,67.336h-60.422V64.623z M401.155,147.794h69.172c15.944,31.32,24.587,64.994,25.707,100.289 h-94.878V147.794z M401.155,447.355v-67.314h60.427C445.944,406.023,425.375,428.949,401.155,447.355z M470.326,364.206h-69.172 V263.918h94.878C494.913,299.2,486.274,332.868,470.326,364.206z"
+  })))), _g2 || (_g2 = /*#__PURE__*/React.createElement("g", null)), _g3 || (_g3 = /*#__PURE__*/React.createElement("g", null)), _g4 || (_g4 = /*#__PURE__*/React.createElement("g", null)), _g5 || (_g5 = /*#__PURE__*/React.createElement("g", null)), _g6 || (_g6 = /*#__PURE__*/React.createElement("g", null)), _g7 || (_g7 = /*#__PURE__*/React.createElement("g", null)), _g8 || (_g8 = /*#__PURE__*/React.createElement("g", null)), _g9 || (_g9 = /*#__PURE__*/React.createElement("g", null)), _g10 || (_g10 = /*#__PURE__*/React.createElement("g", null)), _g11 || (_g11 = /*#__PURE__*/React.createElement("g", null)), _g12 || (_g12 = /*#__PURE__*/React.createElement("g", null)), _g13 || (_g13 = /*#__PURE__*/React.createElement("g", null)), _g14 || (_g14 = /*#__PURE__*/React.createElement("g", null)), _g15 || (_g15 = /*#__PURE__*/React.createElement("g", null)), _g16 || (_g16 = /*#__PURE__*/React.createElement("g", null)));
+}
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgGlobeSvgrepoCom);
+export default __webpack_public_path__ + "static/media/globe-svgrepo-com.bb6fe35b5efdeaf9f53fbd5c51f7b802.svg";
+export { ForwardRef as ReactComponent };
